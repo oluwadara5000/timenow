@@ -1,58 +1,250 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-html, body{
+html,
+body {
   background-color: #000000;
   width: 100%;
 }
 
-section{
+section {
   width: 1730px;
   background-color: #ffffff;
   margin: auto;
 }
 
-.first-div{
+.first-div {
   height: max-content;
   display: flex;
+  width: 100%;
 }
 
-.left{
-padding-left: 180px;
-padding-top: 70px;
-width: 50%;
-background-color: red;
+.left {
+  padding-left: 180px;
+  padding-right: 130px;
+  padding-top: 70px;
+  width: 50%;
 }
 
-.left-header{
+.left-header {
   display: flex;
   gap: 60px;
   margin-bottom: 205px;
 }
 
-.left-header ul{
+.left-header ul {
   display: flex;
   gap: 30px;
 }
 
-.left-header ul li{
+.left-header ul li {
   list-style-type: none;
   font-size: 22px;
 }
 
-.left-writeup h1{
-  color: #1D1B67;
+.left-writeup h1 {
+  color: #1d1b67;
   font-size: 60px;
+  margin-bottom: 30px;
 }
 
+.left-writeup p {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
 
+.button-div {
+  display: flex;
+}
 
-/* LEFT WRITEUP */
+.scheduling {
+  font-size: 20px;
+  background-color: #1d1b67;
+  padding: 24px 42px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 7px;
+  font-weight: 600;
+}
+
+.demo {
+  font-size: 20px;
+  padding: 24px 42px;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 7px;
+  background-color: #ffffff;
+  font-weight: 600;
+}
+
+.disclaimer {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 290px;
+}
+
+.disclaimer img {
+  margin-right: 15px;
+}
+
+.disclaimer p {
+  font-size: 22px;
+}
+
+.disclaimer span {
+  font-size: 22px;
+  text-decoration: underline;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.right {
+  width: 50%;
+  background-color: #46ccde;
+  padding-top: 50px;
+}
+
+.right-image-div {
+  height: 715px;
+  width: 715px;
+  margin: auto;
+}
+
+.right img {
+  height: inherit;
+}
+
+.right button {
+  margin-left: 440px;
+  margin-bottom: 85px;
+}
+
+.second-div {
+  width: 100%;
+  display: flex;
+  padding: 100px 0;
+}
+
+.pictures-container {
+  width: 50%;
+  padding-left: 180px;
+  padding-right: 65px;
+}
+
+.pictures-container h1 {
+  color: #1d1b67;
+  font-size: 43px;
+  margin-bottom: 40px;
+}
+
+.pictures-container div {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pictures-container div img {
+  height: inherit;
+}
+
+.writeup-container {
+  width: 50%;
+  padding-left: 95px;
+}
+
+.writeup-container h1 {
+  width: 580px;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 45px;
+}
+
+.writeup-container h5 {
+  width: 580px;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.third-div {
+  background-color: #cdf9ff;
+  display: flex;
+  padding-top: 80px;
+}
+
+.unified {
+  width: 50%;
+  padding-left: 180px;
+}
+
+.unified span {
+  color: #375cbd;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.unified h1 {
+  color: #005661;
+  font-size: 45px;
+  width: 580px;
+  margin-top: 10px;
+  margin-bottom: 19px;
+}
+
+.unified p {
+  width: 610px;
+  font-size: 22px;
+  color: #354046;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.unified button {
+  margin-bottom: 80px;
+}
+
+.enhanced {
+  width: 50%;
+  padding-left: 95px;
+}
+
+.enhanced span {
+  color: #375cbd;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.enhanced h1 {
+  color: #005661;
+  font-size: 45px;
+  width: 580px;
+  margin-top: 10px;
+  margin-bottom: 19px;
+}
+
+.enhanced p {
+  width: 610px;
+  font-size: 22px;
+  color: #354046;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.enhanced button {
+  margin-bottom: 80px;
+  background-color: #cdf9ff;
+  padding-left: 0;
+}
+
+/* FID HOW TO PUT THE ARROW BESIDE "VIEW LIVE DEMO" */
