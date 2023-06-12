@@ -80,11 +80,10 @@ section {
 .demo {
   font-size: 20px;
   padding: 24px 42px;
-  letter-spacing: 2px;
   border: none;
   border-radius: 7px;
   background-color: #ffffff;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .disclaimer {
@@ -247,4 +246,85 @@ section {
   padding-left: 0;
 }
 
-/* FID HOW TO PUT THE ARROW BESIDE "VIEW LIVE DEMO" */
+.live-demo{
+  font-size: 20px;
+  padding: 24px 30px;
+  border: none;
+  border-radius: 7px;
+  background-color: #ffffff;
+  font-weight: 700;
+}
+
+footer{
+  padding: 95px 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-container{
+  display: flex;
+  gap: 300px;
+}
+
+.footer-list{
+  display: flex;
+  gap: 110px;
+}
+
+.footer-list div p{
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.footer-list div ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-list div ul > li{
+  list-style-type: none;
+  font-size: 20px;
+  width: max-content;
+}
+
+.form-div p{
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+form{
+  display: flex;
+  border: 2px solid #B8B8B8;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  padding-left: 3px;
+}
+
+input{
+  border: none;
+outline: none;
+font-size: 22px;
+width: 50%;
+padding: 31px 0;
+  padding-left: 30px;
+}
+
+form button{
+  height: 75px;
+  width: 235px;
+  font-size: 20px;
+  background-color: #1d1b67;
+  color: #ffffff;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 7px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+/* DONE WITH LANDING PAGE*/
