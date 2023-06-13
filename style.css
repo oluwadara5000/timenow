@@ -50,6 +50,18 @@ section {
   font-size: 22px;
 }
 
+.index, .pricing{
+  text-decoration: none;
+}
+
+.index:visited{
+  color: #B8B8B8;
+}
+
+.pricing:visited{
+  color: black;
+}
+
 .left-writeup h1 {
   color: #1d1b67;
   font-size: 60px;
@@ -244,6 +256,7 @@ section {
   margin-bottom: 80px;
   background-color: #cdf9ff;
   padding-left: 0;
+  padding-right: 10px;
 }
 
 .live-demo{

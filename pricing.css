@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  background-color: #000000;
+  width: 100%;
+}
+
+section {
+  width: 1730px;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 180px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+header ul{
+  display: flex;
+  gap: 30px;
+}
+
+header ul li {
+  list-style-type: none;
+  font-size: 22px;
+}
+
+.index, .pricing{
+  text-decoration: none;
+}
+
+.index:visited{
+  color: black;
+}
+
+.pricing:visited{
+  color: #B8B8B8;
+}
+
+.scheduling {
+  font-size: 20px;
+  background-color: #1d1b67;
+  padding: 24px 42px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 7px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+footer{
+  padding: 95px 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-container{
+  display: flex;
+  gap: 300px;
+}
+
+.footer-list{
+  display: flex;
+  gap: 110px;
+}
+
+.footer-list div p{
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.footer-list div ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-list div ul > li{
+  list-style-type: none;
+  font-size: 20px;
+  width: max-content;
+}
+
+.form-div p{
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+form{
+  display: flex;
+  border: 2px solid #B8B8B8;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  padding-left: 3px;
+}
+
+input{
+  border: none;
+outline: none;
+font-size: 22px;
+width: 50%;
+padding: 31px 0;
+  padding-left: 30px;
+}
+
+form button{
+  height: 75px;
+  width: 235px;
+  font-size: 20px;
+  background-color: #1d1b67;
+  color: #ffffff;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 7px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+.period {
+  display: flex;
+  background-color: #f8f9fe;
+  margin-top: 30px;
+  justify-content: center;
+  font-weight: 700;
+  padding: 15px 0;
+  /* position: absolute; */
+}
+
+.toggle {
+  position: relative;
+  background-color: red;
+}
+
+.toggle input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  background-color: #3A84F7;
+  transition: 0.5s;
+  width: 40px;
+  height: 100%;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 30%;
+  background-color: #ffffff;
+  transition: 0.5s;
+  top: 2px;
+  left: 2px;
+}
+
+input:checked + .slider:before {
+  transform: translateX(23px);
+}
+
+.slider.round {
+  border-radius: 20px;
+}
+
+.slider.round:before {
+  border-radius: 20px;
+}
+
+#monthly {
+  margin-right: 20px;
+  /* margin-left: 111px; */
+}
+
+#yearly {
+  margin-left: 20px;
+  /* margin-right: 111px; */
+}
+
+
+/* TIME TO START CODING THE PLANS PAGE. ESPECIALLY THE TOGGLE BUTTON */
