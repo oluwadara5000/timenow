@@ -24,10 +24,10 @@
         <img src="Assets/Logo.svg" alt="">
         <ul>
           <a class="index" href="index.html">
-            <li>Features</li>
+            <li id="features-li">Features</li>
           </a>
-          <a class="pricing" href="pricing.html">
-            <li>Pricing</li>
+          <a id="pricing" class="pricing" href="pricing.html">
+            <li id="pricing-li">Pricing</li>
           </a>
         </ul>
       </div>
@@ -38,19 +38,16 @@
     </header>
 
     <div class="plans">
-      <div>
+      <div class="plans-writeup">
         <h1>Flexible Plans for Everyone</h1>
         <p>Our plans are made for everyone. Whether you're just starting out on social media, or have been on there for
           a long time, we have a plan that's right for you.</p>
       </div>
 
-      <!-- <div class="toggle-container">
-      </div> -->
-
       <div class="period">
         <p id="monthly">Billed Monthly</p>
         <label class="toggle">
-          <input type="checkbox" checked="checked" />
+          <input type="checkbox"/>
           <span class="slider round"></span>
         </label>
         <p id="yearly">Billed Yearly</p>
@@ -58,8 +55,8 @@
       
       <div class="plan-container">
         <div class="first">
-          <h1>$4<span>/mo</span></h1>
-          <h1>$40<span>/yr</span></h1>
+          <h1 id="first-month" class="month">$4<span>/mo</span></h1>
+          <h1 id="first-year" class="year">$40<span>/yr</span></h1>
           <p>Perfect plan if you're just starting out.</p>
           <div class="list">
             <h1><img src="Assets/Checkmark.svg" alt="">LinkedIn Integration</h1>
@@ -70,8 +67,8 @@
         </div>
 
         <div class="second">
-          <h1>$12<span>/mo</span></h1>
-          <h1>$140<span>/yr</span></h1>
+          <h1 id="second-month" class="month">$12<span>/mo</span></h1>
+          <h1 id="second-year" class="year">$140<span>/yr</span></h1>
           <p>Perfect plan if you're a heavy user of social media.</p>
           <div class="list">
             <h1><img src="Assets/Checkmark.svg" alt="">LinkedIn Integration</h1>
@@ -83,8 +80,8 @@
         </div>
 
         <div class="third">
-          <h1>$7<span>/mo</span></h1>
-          <h1>$80<span>/yr</span></h1>
+          <h1 id="third-month" class="month">$7<span>/mo</span></h1>
+          <h1 id="third-year" class="year">$80<span>/yr</span></h1>
           <p>Perfect plan if you're just starting out.</p>
           <div class="list">
             <h1><img src="Assets/Checkmark.svg" alt="">LinkedIn Integration</h1>
@@ -136,6 +133,8 @@
       </div>
     </footer>
   </section>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
