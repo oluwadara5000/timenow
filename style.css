@@ -63,6 +63,10 @@ section {
   color: #5b7b99;
 }
 
+.fa-bars{
+  display: none;
+}
+
 
 .left-writeup h1 {
   color: #1d1b67;
@@ -342,4 +346,169 @@ form button{
   margin-right: 5px;
 }
 
-/* DONE WITH LANDING PAGE*/
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 380px and BELOW */
+@media screen and (max-width: 380px) {
+  section {
+    width: 100%;
+    margin: auto;
+  }
+
+  .first-div{
+    flex-direction: column;
+  }
+
+  .left{
+    padding: 0;
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 35px;
+  }
+
+  .left-header{
+    width: 100%;
+    margin-bottom: 45px;
+  }
+
+  .left-header ul{
+    display: none;
+  }
+
+  .fa-bars{
+    display: block;
+  }
+
+  .right{
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .right-image-div{
+    height: 315px;
+    width: 315px;
+    margin-bottom: 45px;
+  }
+
+  .scheduling{
+    padding: 18px 18px;
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+
+  .right button{
+    display: none;
+  }
+
+  .second-div{
+    flex-direction: column;
+    padding: 50px 20px;
+    height: 625px;
+    justify-content: space-between;
+  }
+
+  .pictures-container{
+    width: 100%;
+    padding: 0
+  }
+
+  .pictures-container h1{
+    margin: 0;
+  }
+
+  .pictures-container div{
+    height: 45px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 7px;
+  }
+
+  .writeup-container{
+    width: 100%;
+    padding: 0;
+    margin-top: 35px;
+  }
+
+  .writeup-container h1{
+    width: 100%;
+  }
+
+  .writeup-container h5{
+    width: 100%;
+  }
+
+  .third-div{
+    flex-direction: column;
+    padding: 0 20px;
+    padding-top: 40px;
+  }
+
+  .unified{
+    width: 100%;
+    padding: 0;
+  }
+
+  .unified h1{
+    width: 100%;
+  }
+
+  .unified p{
+    width: 100%;
+  }
+
+  .enhanced{
+    width: 100%;
+    padding: 0;
+  }
+
+  .enhanced h1{
+    width: 100%;
+  }
+
+  .enhanced p{
+    width: 100%;
+  }
+
+  footer{
+    padding: 30px 20px;
+  }
+
+  .footer-container{
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .footer-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 90px;
+    row-gap: 30px;
+  }
+
+  form button{
+    width: 100%;
+  }
+}
+
+/* MEDIA QUERY PROBLEM. HORIZONTAL NAVOIGATION IS VISIOBLE*/

@@ -285,6 +285,36 @@ form button{
   margin-right: 5px;
 }
 
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 380px and BELOW */
+@media screen and (max-width: 380px) {
+  section {
+    width: 100%;
+  }
+}
+
 
 
 
