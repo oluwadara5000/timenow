@@ -22,7 +22,7 @@ section {
 }
 
 .first-div {
-  height: max-content;
+  /* height: max-content; */
   display: flex;
   width: 100%;
 }
@@ -110,6 +110,10 @@ section {
   margin-bottom: 290px;
 }
 
+.disclaimer div{
+  display: flex;
+}
+
 .disclaimer img {
   margin-right: 15px;
 }
@@ -164,14 +168,18 @@ section {
   margin-bottom: 40px;
 }
 
-.pictures-container div {
+.pictures-container-div-desktop {
   height: 60px;
   display: flex;
   justify-content: space-between;
 }
 
-.pictures-container div img {
+.pictures-container-div-desktop img {
   height: inherit;
+}
+
+.pictures-container-div-mobile{
+   display: none;
 }
 
 .writeup-container {
@@ -390,6 +398,8 @@ form button{
   .left-header{
     width: 100%;
     margin-bottom: 45px;
+    gap: 0;
+    justify-content: space-between;
   }
 
   .left-header ul{
@@ -400,21 +410,51 @@ form button{
     display: block;
   }
 
+  .left-writeup h1{
+    font-size: 30px;
+  }
+
+  .left-writeup p{
+    font-size: 16px;
+  }
+
   .right{
     width: 100%;
     padding-top: 40px;
+    margin-top: 35px;
   }
 
   .right-image-div{
     height: 315px;
     width: 315px;
+    margin: auto;
     margin-bottom: 45px;
   }
 
   .scheduling{
-    padding: 18px 18px;
+    padding: 18px 16px;
     font-size: 18px;
     letter-spacing: 0;
+  }
+
+  .demo{
+    font-size: 18px;
+    padding: 0;
+    padding-left: 50px;
+  }
+
+  .disclaimer{
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .disclaimer p{
+    font-size: 16px;
+  }
+
+  .disclaimer span{
+    font-size: 16px;
+    margin-left: 35px;
   }
 
   .right button{
@@ -424,7 +464,6 @@ form button{
   .second-div{
     flex-direction: column;
     padding: 50px 20px;
-    height: 625px;
     justify-content: space-between;
   }
 
@@ -435,14 +474,29 @@ form button{
 
   .pictures-container h1{
     margin: 0;
+    font-size: 30px;
+    margin-bottom: 30px;
   }
 
-  .pictures-container div{
-    height: 45px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    gap: 7px;
+  .pictures-container-div-desktop{
+    display: none;
   }
+
+  .pictures-container-div-mobile{
+   display: flex;
+   flex-direction: column;
+   gap: 7px;
+}
+
+.pictures-container-div-mobile div{
+  height: 45px;
+  display: flex;
+  gap: 7px;
+}
+
+.pictures-container-div-mobile div img{
+  width: 45px;
+}
 
   .writeup-container{
     width: 100%;
@@ -452,10 +506,12 @@ form button{
 
   .writeup-container h1{
     width: 100%;
+    font-size: 16px;
   }
 
   .writeup-container h5{
     width: 100%;
+    font-size: 16px;
   }
 
   .third-div{
@@ -469,12 +525,22 @@ form button{
     padding: 0;
   }
 
+  .unified span{
+    font-size: 16px;
+  }
+
   .unified h1{
     width: 100%;
+    font-size: 30px;
   }
 
   .unified p{
     width: 100%;
+    font-size: 18px;
+  }
+
+  .unified button{
+    margin-bottom: 60px;
   }
 
   .enhanced{
@@ -482,16 +548,26 @@ form button{
     padding: 0;
   }
 
+  .enhanced span{
+    font-size: 16px;
+  }
+
   .enhanced h1{
     width: 100%;
+    font-size: 30px;
   }
 
   .enhanced p{
     width: 100%;
+    font-size: 17px;
+  }
+
+  .enhanced button{
+    margin-bottom: 40px;
   }
 
   footer{
-    padding: 30px 20px;
+    padding: 30px 18px;
   }
 
   .footer-container{
@@ -502,13 +578,277 @@ form button{
   .footer-list{
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 90px;
+    column-gap: 20px;
     row-gap: 30px;
+  }
+
+  .footer-list div p{
+    font-size: 20px;
+  }
+
+  .footer-list div ul > li{
+    font-size: 16px;
+  }
+
+  input{
+    padding: 20px 0;
+    padding-left: 20px;
+    font-size: 16px;
   }
 
   form button{
     width: 100%;
-  }
+    width: 180px;
+    font-size: 16px;
+    height: 55px;
+  } 
 }
 
-/* MEDIA QUERY PROBLEM. HORIZONTAL NAVOIGATION IS VISIOBLE*/
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 381px TO 450px */
+@media screen and (min-width: 381px) and (max-width: 450px) {
+  section {
+    width: 380px;
+    margin: auto;
+  }
+
+  .first-div{
+    flex-direction: column;
+  }
+
+  .left{
+    padding: 0;
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 35px;
+  }
+
+  .left-header{
+    width: 100%;
+    margin-bottom: 45px;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .left-header ul{
+    display: none;
+  }
+
+  .fa-bars{
+    display: block;
+  }
+
+  .left-writeup h1{
+    font-size: 30px;
+  }
+
+  .left-writeup p{
+    font-size: 16px;
+  }
+
+  .right{
+    width: 100%;
+    padding-top: 40px;
+    margin-top: 35px;
+  }
+
+  .right-image-div{
+    height: 315px;
+    width: 315px;
+    margin: auto;
+    margin-bottom: 45px;
+  }
+
+  .scheduling{
+    padding: 18px 16px;
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+
+  .demo{
+    font-size: 18px;
+    padding: 0;
+    padding-left: 50px;
+  }
+
+  .disclaimer{
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .disclaimer p{
+    font-size: 16px;
+  }
+
+  .disclaimer span{
+    font-size: 16px;
+    margin-left: 35px;
+  }
+
+  .right button{
+    display: none;
+  }
+
+  .second-div{
+    flex-direction: column;
+    padding: 50px 20px;
+    justify-content: space-between;
+  }
+
+  .pictures-container{
+    width: 100%;
+    padding: 0
+  }
+
+  .pictures-container h1{
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .pictures-container-div-desktop{
+    display: none;
+  }
+
+  .pictures-container-div-mobile{
+   display: flex;
+   flex-direction: column;
+   gap: 7px;
+}
+
+.pictures-container-div-mobile div{
+  height: 45px;
+  display: flex;
+  gap: 7px;
+}
+
+.pictures-container-div-mobile div img{
+  width: 45px;
+}
+
+  .writeup-container{
+    width: 100%;
+    padding: 0;
+    margin-top: 35px;
+  }
+
+  .writeup-container h1{
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .writeup-container h5{
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .third-div{
+    flex-direction: column;
+    padding: 0 20px;
+    padding-top: 40px;
+  }
+
+  .unified{
+    width: 100%;
+    padding: 0;
+  }
+
+  .unified span{
+    font-size: 16px;
+  }
+
+  .unified h1{
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .unified p{
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .unified button{
+    margin-bottom: 60px;
+  }
+
+  .enhanced{
+    width: 100%;
+    padding: 0;
+  }
+
+  .enhanced span{
+    font-size: 16px;
+  }
+
+  .enhanced h1{
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .enhanced p{
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .enhanced button{
+    margin-bottom: 40px;
+  }
+
+  footer{
+    padding: 30px 18px;
+  }
+
+  .footer-container{
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .footer-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+
+  .footer-list div p{
+    font-size: 20px;
+  }
+
+  .footer-list div ul > li{
+    font-size: 16px;
+  }
+
+  input{
+    padding: 20px 0;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  form button{
+    width: 100%;
+    width: 180px;
+    font-size: 16px;
+    height: 55px;
+  } 
+}
+
+/* FINISHED SECOND MEDIA QUERY*/
