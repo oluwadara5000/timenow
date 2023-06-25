@@ -33,6 +33,10 @@ header {
   display: none;
 }
 
+.navigation-div {
+  display: none;
+}
+
 .left {
   display: flex;
   align-items: center;
@@ -167,6 +171,10 @@ input:checked + .slider:before {
   display: flex;
   padding: 0 180px;
   justify-content: space-between;
+}
+
+.plan-container-tablet {
+  display: none;
 }
 
 .first,
@@ -368,6 +376,10 @@ form button {
     gap: 30px;
   }
 
+  .plan-container-tablet {
+    display: none;
+  }
+
   .period {
     padding: 0 40px;
     margin-bottom: 35px;
@@ -534,6 +546,10 @@ form button {
     padding: 0 30px;
     flex-direction: column;
     gap: 30px;
+  }
+
+  .plan-container-tablet {
+    display: none;
   }
 
   .period {
@@ -704,6 +720,10 @@ form button {
     gap: 30px;
   }
 
+  .plan-container-tablet {
+    display: none;
+  }
+
   .period {
     padding: 0 40px;
     margin-bottom: 35px;
@@ -832,6 +852,1728 @@ form button {
     width: 525px;
     margin: auto;
   }
+
+  .fa-bars {
+    display: block;
+  }
+
+  header {
+    padding: 0 20px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  header button {
+    display: none;
+  }
+
+  .plans-writeup {
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+
+  .plans-writeup h1 {
+    font-size: 60px;
+  }
+
+  .plans-writeup p {
+    padding: 0;
+    font-size: 16px;
+  }
+
+  .plan-container {
+    padding: 0 67px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .plan-container-tablet {
+    display: none;
+  }
+
+  .period {
+    padding: 0 40px;
+    margin-bottom: 35px;
+    align-items: center;
+  }
+
+  .slider {
+    width: 55px;
+    height: 31px;
+  }
+
+  .slider::before {
+    height: 67%;
+    width: 37%;
+    margin-top: 1px;
+    margin-left: 1px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(28px);
+  }
+
+  #monthly,
+  #yearly {
+    font-size: 20px;
+  }
+
+  .month,
+  .year {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .first,
+  .second,
+  .third {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .first p,
+  .second p,
+  .third p {
+    font-size: 16px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+  }
+
+  .list {
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+
+  .list h1 {
+    font-size: 18px;
+  }
+
+  .first button,
+  .second button,
+  .third button {
+    width: 100%;
+    font-size: 16px;
+    padding: 19px 0;
+    letter-spacing: 0;
+  }
+
+  footer {
+    padding: 30px 18px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .footer-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+
+  .footer-list div p {
+    font-size: 20px;
+  }
+
+  .footer-list div ul > li {
+    font-size: 16px;
+  }
+
+  input {
+    padding: 20px 0;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  form button {
+    width: 100%;
+    width: 180px;
+    font-size: 16px;
+    height: 55px;
+  }
 }
 
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 601px TO 685px */
+@media screen and (min-width: 601px) and (max-width: 685px) {
+  section {
+    width: 600px;
+    margin: auto;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  header {
+    padding: 0 20px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  header button {
+    display: none;
+  }
+
+  .plans-writeup {
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+
+  .plans-writeup h1 {
+    font-size: 60px;
+  }
+
+  .plans-writeup p {
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .plan-container {
+    padding: 0 105px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .plan-container-tablet {
+    display: none;
+  }
+
+  .period {
+    padding: 0 40px;
+    margin-bottom: 35px;
+    align-items: center;
+  }
+
+  .slider {
+    width: 55px;
+    height: 31px;
+  }
+
+  .slider::before {
+    height: 67%;
+    width: 37%;
+    margin-top: 1px;
+    margin-left: 1px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(28px);
+  }
+
+  #monthly,
+  #yearly {
+    font-size: 20px;
+  }
+
+  .month,
+  .year {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .first,
+  .second,
+  .third {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .first p,
+  .second p,
+  .third p {
+    font-size: 16px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+  }
+
+  .list {
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+
+  .list h1 {
+    font-size: 18px;
+  }
+
+  .first button,
+  .second button,
+  .third button {
+    width: 100%;
+    font-size: 16px;
+    padding: 19px 0;
+    letter-spacing: 0;
+  }
+
+  footer {
+    padding: 30px 18px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .footer-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+
+  .footer-list div p {
+    font-size: 20px;
+  }
+
+  .footer-list div ul > li {
+    font-size: 16px;
+  }
+
+  input {
+    padding: 20px 0;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  form button {
+    width: 100%;
+    width: 180px;
+    font-size: 16px;
+    height: 55px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 686px TO 759px */
+@media screen and (min-width: 686px) and (max-width: 759px) {
+  section {
+    width: 685px;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  header {
+    padding: 0 20px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  header button {
+    display: none;
+  }
+
+  .plans-writeup {
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+
+  .plans-writeup h1 {
+    font-size: 60px;
+  }
+
+  .plans-writeup p {
+    padding: 0 40px;
+    font-size: 20px;
+  }
+
+  .plan-container {
+    padding: 0 147px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .plan-container-tablet {
+    display: none;
+  }
+
+  .period {
+    padding: 0 40px;
+    margin-bottom: 35px;
+    align-items: center;
+  }
+
+  .slider {
+    width: 55px;
+    height: 31px;
+  }
+
+  .slider::before {
+    height: 67%;
+    width: 37%;
+    margin-top: 1px;
+    margin-left: 1px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(28px);
+  }
+
+  #monthly,
+  #yearly {
+    font-size: 20px;
+  }
+
+  .month,
+  .year {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .first,
+  .second,
+  .third {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .first p,
+  .second p,
+  .third p {
+    font-size: 16px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+  }
+
+  .list {
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+
+  .list h1 {
+    font-size: 18px;
+  }
+
+  .first button,
+  .second button,
+  .third button {
+    width: 100%;
+    font-size: 16px;
+    padding: 19px 0;
+    letter-spacing: 0;
+  }
+
+  footer {
+    padding: 30px 18px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .footer-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+
+  .footer-list div p {
+    font-size: 20px;
+  }
+
+  .footer-list div ul > li {
+    font-size: 16px;
+  }
+
+  input {
+    padding: 20px 0;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  form {
+    width: 70%;
+  }
+
+  form button {
+    width: 100%;
+    width: 180px;
+    font-size: 16px;
+    height: 55px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 760px TO 840px */
+
+@media screen and (min-width: 760px) and (max-width: 840px) {
+  section {
+    width: 760px;
+    margin: auto;
+  }
+
+  header {
+    padding: 0 40px;
+    padding-top: 40px;
+    margin-bottom: 115px;
+  }
+
+  .navigation-div {
+    display: none;
+  }
+
+  .plans-writeup {
+    width: 100%;
+  }
+
+  .plans-writeup h1 {
+    font-size: 50px;
+  }
+
+  .plans-writeup p {
+    padding: 0 45px;
+  }
+
+  .period {
+    padding: 0 40px;
+    margin-bottom: 60px;
+    align-items: center;
+  }
+
+  .slider {
+    width: 60px;
+    height: 32px;
+  }
+
+  .slider::before {
+    height: 77%;
+    width: 40%;
+    margin-left: 1px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(30px);
+  }
+
+  #monthly,
+  #yearly {
+    font-size: 18px;
+  }
+
+  .plan-container {
+    display: none;
+  }
+
+  .plan-container-tablet {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 40px;
+  }
+
+  .upper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .lower {
+    width: 100%;
+  }
+
+  .third {
+    width: inherit;
+  }
+
+  .first,
+  .second {
+    padding: 0 20px;
+    padding-top: 30px;
+    width: 320px;
+  }
+
+  .third {
+    padding: 0 30px;
+    padding-top: 30px;
+  }
+
+  .list {
+    gap: 15px;
+  }
+
+  .list h1 {
+    font-size: 18px;
+  }
+
+  .first p,
+  .second p,
+  .third p {
+    font-size: 20px;
+    padding-bottom: 28px;
+    margin-bottom: 30px;
+  }
+
+  .first button,
+  .second button {
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+
+  .first .list {
+    margin-bottom: 79px;
+  }
+
+  .month,
+  .year {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .third button {
+    margin-bottom: 25px;
+    padding: 20px 10px;
+    letter-spacing: 0;
+  }
+
+  footer {
+    padding: 50px 40px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-list {
+    display: flex;
+    gap: 90px;
+  }
+
+  .footer-list div p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .footer-list div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-list div ul > li {
+    list-style-type: none;
+    font-size: 18px;
+    width: max-content;
+  }
+
+  .form-div p {
+    font-size: 18px;
+  }
+
+  form {
+    width: 430px;
+  }
+
+  input {
+    padding-left: 20px;
+    font-size: 18px;
+  }
+
+  form button {
+    width: 195px;
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 841px TO 915px */
+@media screen and (min-width: 841px) and (max-width: 915px) {
+  section {
+    width: 840px;
+  }
+
+  header {
+    padding: 0 40px;
+    padding-top: 40px;
+    margin-bottom: 115px;
+  }
+
+  .navigation-div {
+    display: none;
+  }
+
+  .plans-writeup {
+    width: 100%;
+  }
+
+  .plans-writeup h1 {
+    font-size: 50px;
+  }
+
+  .plans-writeup p {
+    padding: 0 45px;
+  }
+
+  .period {
+    padding: 0 40px;
+    margin-bottom: 60px;
+    align-items: center;
+  }
+
+  .slider {
+    width: 60px;
+    height: 32px;
+  }
+
+  .slider::before {
+    height: 77%;
+    width: 40%;
+    margin-left: 1px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(30px);
+  }
+
+  #monthly,
+  #yearly {
+    font-size: 18px;
+  }
+
+  .plan-container {
+    display: none;
+  }
+
+  .plan-container-tablet {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 40px;
+  }
+
+  .upper {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .lower {
+    width: 100%;
+  }
+
+  .third {
+    width: inherit;
+  }
+
+  .first,
+  .second {
+    padding: 0 20px;
+    padding-top: 30px;
+    width: 320px;
+  }
+
+  .third {
+    padding: 0 30px;
+    padding-top: 30px;
+  }
+
+  .list {
+    gap: 15px;
+  }
+
+  .list h1 {
+    font-size: 18px;
+  }
+
+  .first p,
+  .second p,
+  .third p {
+    font-size: 20px;
+    padding-bottom: 28px;
+    margin-bottom: 30px;
+  }
+
+  .first button,
+  .second button {
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+
+  .first .list {
+    margin-bottom: 79px;
+  }
+
+  .month,
+  .year {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .third button {
+    margin-bottom: 25px;
+    padding: 20px 10px;
+    letter-spacing: 0;
+  }
+
+  footer {
+    padding: 50px 40px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-list {
+    display: flex;
+    gap: 90px;
+  }
+
+  .footer-list div p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .footer-list div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-list div ul > li {
+    list-style-type: none;
+    font-size: 18px;
+    width: max-content;
+  }
+
+  .form-div p {
+    font-size: 18px;
+  }
+
+  form {
+    width: 430px;
+  }
+
+  input {
+    padding-left: 20px;
+    font-size: 18px;
+  }
+
+  form button {
+    width: 195px;
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 916px TO 990px */
+
+@media screen and (min-width: 916px) and (max-width: 990px) {
+  section {
+    width: 915px;
+  }
+
+  header {
+    padding: 0 40px;
+    padding-top: 40px;
+    margin-bottom: 115px;
+  }
+
+  .navigation-div {
+    display: none;
+  }
+
+  .plans-writeup {
+    width: 100%;
+  }
+
+  .plans-writeup h1 {
+    font-size: 50px;
+  }
+
+  .plans-writeup p {
+    padding: 0 125px;
+  }
+
+  .period {
+    padding: 0 40px;
+    margin-bottom: 60px;
+    align-items: center;
+  }
+
+  .slider {
+    width: 60px;
+    height: 32px;
+  }
+
+  .slider::before {
+    height: 77%;
+    width: 40%;
+    margin-left: 1px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(30px);
+  }
+
+  #monthly,
+  #yearly {
+    font-size: 18px;
+  }
+
+  .plan-container {
+    display: none;
+  }
+
+  .plan-container-tablet {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 40px;
+  }
+
+  .upper {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .lower {
+    width: 100%;
+  }
+
+  .third {
+    width: inherit;
+  }
+
+  .first,
+  .second {
+    padding: 0 20px;
+    padding-top: 30px;
+    width: 320px;
+  }
+
+  .third {
+    padding: 0 30px;
+    padding-top: 30px;
+  }
+
+  .list {
+    gap: 15px;
+  }
+
+  .list h1 {
+    font-size: 18px;
+  }
+
+  .first p,
+  .second p,
+  .third p {
+    font-size: 20px;
+    padding-bottom: 28px;
+    margin-bottom: 30px;
+  }
+
+  .first button,
+  .second button {
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+
+  .first .list {
+    margin-bottom: 79px;
+  }
+
+  .month,
+  .year {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .third button {
+    margin-bottom: 25px;
+    padding: 20px 10px;
+    letter-spacing: 0;
+  }
+
+  footer {
+    padding: 50px 40px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-list {
+    display: flex;
+    gap: 90px;
+  }
+
+  .footer-list div p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .footer-list div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-list div ul > li {
+    list-style-type: none;
+    font-size: 18px;
+    width: max-content;
+  }
+
+  .form-div p {
+    font-size: 18px;
+  }
+
+  form {
+    width: 430px;
+  }
+
+  input {
+    padding-left: 20px;
+    font-size: 18px;
+  }
+
+  form button {
+    width: 195px;
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 991px TO 1065px */
+
+@media screen and (min-width: 991px) and (max-width: 1065px) {
+  section {
+    width: 990px;
+  }
+
+  header {
+    padding: 0 80px;
+    padding-top: 40px;
+    margin-bottom: 115px;
+  }
+
+  .navigation-div {
+    display: none;
+  }
+
+  .plans-writeup {
+    width: 100%;
+  }
+
+  .plans-writeup h1 {
+    font-size: 50px;
+  }
+
+  .plans-writeup p {
+    padding: 0 125px;
+  }
+
+  .period {
+    padding: 0 40px;
+    margin-bottom: 60px;
+    align-items: center;
+  }
+
+  .slider {
+    width: 60px;
+    height: 32px;
+  }
+
+  .slider::before {
+    height: 77%;
+    width: 40%;
+    margin-left: 1px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(30px);
+  }
+
+  #monthly,
+  #yearly {
+    font-size: 18px;
+  }
+
+  .plan-container {
+    display: none;
+  }
+
+  .plan-container-tablet {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 40px;
+  }
+
+  .upper {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .lower {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .third {
+    width: inherit;
+  }
+
+  .first,
+  .second {
+    padding: 0 20px;
+    padding-top: 30px;
+    width: 320px;
+  }
+
+  .third {
+    padding: 0 30px;
+    padding-top: 30px;
+  }
+
+  .list {
+    gap: 15px;
+  }
+
+  .list h1 {
+    font-size: 18px;
+  }
+
+  .first p,
+  .second p,
+  .third p {
+    font-size: 20px;
+    padding-bottom: 28px;
+    margin-bottom: 30px;
+  }
+
+  .first button,
+  .second button {
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+
+  .first .list {
+    margin-bottom: 79px;
+  }
+
+  .month,
+  .year {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .third button {
+    margin-bottom: 25px;
+    padding: 20px 10px;
+    letter-spacing: 0;
+  }
+
+  footer {
+    padding: 50px 80px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-list {
+    display: flex;
+    gap: 90px;
+  }
+
+  .footer-list div p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .footer-list div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-list div ul > li {
+    list-style-type: none;
+    font-size: 18px;
+    width: max-content;
+  }
+
+  .form-div p {
+    font-size: 18px;
+  }
+
+  form {
+    width: 430px;
+  }
+
+  input {
+    padding-left: 20px;
+    font-size: 18px;
+  }
+
+  form button {
+    width: 195px;
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 1066px TO 1140px */
+
+@media screen and (min-width: 1066px) and (max-width: 1140px) {
+  section {
+    width: 1065px;
+  }
+
+  header {
+    padding: 0 80px;
+    padding-top: 40px;
+    margin-bottom: 115px;
+  }
+
+  .navigation-div {
+    display: none;
+  }
+
+  .plans-writeup {
+    width: 100%;
+  }
+
+  .plans-writeup h1 {
+    font-size: 50px;
+  }
+
+  .plans-writeup p {
+    padding: 0 125px;
+  }
+
+  .period {
+    padding: 0 40px;
+    margin-bottom: 60px;
+    align-items: center;
+  }
+
+  .slider {
+    width: 60px;
+    height: 32px;
+  }
+
+  .slider::before {
+    height: 77%;
+    width: 40%;
+    margin-left: 1px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(30px);
+  }
+
+  #monthly,
+  #yearly {
+    font-size: 18px;
+  }
+
+  .plan-container {
+    display: none;
+  }
+
+  .plan-container-tablet {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 40px;
+  }
+
+  .upper {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .lower {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .third {
+    width: inherit;
+  }
+
+  .first,
+  .second {
+    padding: 0 20px;
+    padding-top: 30px;
+    width: 320px;
+  }
+
+  .third {
+    padding: 0 30px;
+    padding-top: 30px;
+  }
+
+  .list {
+    gap: 15px;
+  }
+
+  .list h1 {
+    font-size: 18px;
+  }
+
+  .first p,
+  .second p,
+  .third p {
+    font-size: 20px;
+    padding-bottom: 28px;
+    margin-bottom: 30px;
+  }
+
+  .first button,
+  .second button {
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+
+  .first .list {
+    margin-bottom: 79px;
+  }
+
+  .month,
+  .year {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .third button {
+    margin-bottom: 25px;
+    padding: 20px 10px;
+    letter-spacing: 0;
+  }
+
+  footer {
+    padding: 50px 80px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-list {
+    display: flex;
+    gap: 90px;
+  }
+
+  .footer-list div p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .footer-list div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-list div ul > li {
+    list-style-type: none;
+    font-size: 18px;
+    width: max-content;
+  }
+
+  .form-div p {
+    font-size: 18px;
+  }
+
+  form {
+    width: 430px;
+  }
+
+  input {
+    padding-left: 20px;
+    font-size: 18px;
+  }
+
+  form button {
+    width: 195px;
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 1141px TO 1439px */
+
+@media screen and (min-width: 1141px) and (max-width: 1439px) {
+  section {
+    width: 1140px;
+  }
+
+  header {
+    padding: 0 80px;
+    padding-top: 40px;
+    margin-bottom: 115px;
+  }
+
+  .navigation-div {
+    display: none;
+  }
+
+  .plans-writeup {
+    width: 100%;
+  }
+
+  .plans-writeup h1 {
+    font-size: 50px;
+  }
+
+  .plans-writeup p {
+    padding: 0 125px;
+  }
+
+  .period {
+    padding: 0 40px;
+    margin-bottom: 60px;
+    align-items: center;
+  }
+
+  .slider {
+    width: 60px;
+    height: 32px;
+  }
+
+  .slider::before {
+    height: 77%;
+    width: 40%;
+    margin-left: 1px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(30px);
+  }
+
+  #monthly,
+  #yearly {
+    font-size: 18px;
+  }
+
+  .plan-container {
+    display: none;
+  }
+
+  .plan-container-tablet {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 40px;
+  }
+
+  .upper {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .lower {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .third {
+    width: inherit;
+  }
+
+  .first,
+  .second {
+    padding: 0 20px;
+    padding-top: 30px;
+    width: 320px;
+  }
+
+  .third {
+    padding: 0 30px;
+    padding-top: 30px;
+  }
+
+  .list {
+    gap: 15px;
+  }
+
+  .list h1 {
+    font-size: 18px;
+  }
+
+  .first p,
+  .second p,
+  .third p {
+    font-size: 20px;
+    padding-bottom: 28px;
+    margin-bottom: 30px;
+  }
+
+  .first button,
+  .second button {
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+
+  .first .list {
+    margin-bottom: 79px;
+  }
+
+  .month,
+  .year {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .third button {
+    margin-bottom: 25px;
+    padding: 20px 10px;
+    letter-spacing: 0;
+  }
+
+  footer {
+    padding: 50px 80px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-list {
+    display: flex;
+    gap: 90px;
+  }
+
+  .footer-list div p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .footer-list div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-list div ul > li {
+    list-style-type: none;
+    font-size: 18px;
+    width: max-content;
+  }
+
+  .form-div p {
+    font-size: 18px;
+  }
+
+  form {
+    width: 430px;
+  }
+
+  input {
+    padding-left: 20px;
+    font-size: 18px;
+  }
+
+  form button {
+    width: 195px;
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+}
 /* STARTED PRICING PAGE MEDIA QUERY */
